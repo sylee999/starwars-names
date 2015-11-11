@@ -1,0 +1,27 @@
+{
+  "name": "starwars-names-sylee999",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylee999/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "'sylee999' <'sylee999@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sylee999/starwars-names/issues"
+  },
+  "homepage": "https://github.com/sylee999/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
