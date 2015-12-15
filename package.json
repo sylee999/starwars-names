@@ -1,14 +1,16 @@
 {
   "name": "starwars-names-sylee999",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sylee999/starwars-names.git"
+    "url": "https://github.com/sylee999/starwars-names.git"
   },
   "keywords": [
     "random",
@@ -26,6 +28,14 @@
   },
   "devDependencies": {
     "chai": "3.4.1",
-    "mocha": "2.3.4"
-  }
+    "commitizen": "2.4.6",
+    "cz-conventional-changelog": "1.1.5",
+    "mocha": "2.3.4",
+    "semantic-release": "^4.3.5"
+  },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-conventional-changelog"
+        }
+    }
 }
